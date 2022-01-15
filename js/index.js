@@ -3,8 +3,17 @@ console.log(`The drivers name is ${hacker1}`)
 let hacker2 = "John"
 console.log(`The navigators name is ${hacker2}`)
 
-let capNameDriver = hacker1.toUpperCase().split("")
-console.log(capNameDriver)
+for (let i = 0; i < hacker1.length; i++) {
+  let sepLetters = hacker1[i].toUpperCase()
+  console.log(sepLetters)
+}
+
+let splitName = hacker2.split("")
+console.log(splitName)
+let reverseName = splitName.reverse()
+console.log(reverseName)
+let joinReversedName = reverseName.join("")
+console.log(joinReversedName)
 
 /*
 if (hacker1.localeCompare(hacker2) === 1) {
