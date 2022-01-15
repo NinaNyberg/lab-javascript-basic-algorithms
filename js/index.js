@@ -15,15 +15,16 @@ console.log(reverseName)
 let joinReversedName = reverseName.join("")
 console.log(joinReversedName)
 
-/*
+
 if (hacker1.localeCompare(hacker2) === 1) {
-  return `The driver has the longest name, it has ${hacker1} characters`
+  console.log(`The driver has the longest name, it has ${hacker1.length} characters`)
 } else if (hacker1.localeCompare(hacker2) === -1) {
-  return `It seems that the navigator has the longest name, it has ${hacker2} characters`
+  console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters`)
 } else {
-  return `Wow, they both have equally long names, ${hacker1} characters`
+  console.log(`Wow, you both have equally long names, ${hacker1.length} characters`)
 }
-*/
+
+
 
 
 
