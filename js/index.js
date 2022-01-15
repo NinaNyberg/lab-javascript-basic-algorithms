@@ -1,4 +1,4 @@
-let hacker1 = "Jim"
+let hacker1 = "John"
 console.log(`The drivers name is ${hacker1}`)
 let hacker2 = "John"
 console.log(`The navigators name is ${hacker2}`)
@@ -24,6 +24,13 @@ if (hacker1.localeCompare(hacker2) === 1) {
   console.log(`Wow, you both have equally long names, ${hacker1.length} characters`)
 }
 
+if (hacker1 < hacker2) {
+  console.log("The drivers name goes first")
+} else if (hacker1 > hacker2) {
+  console.log("Yo, the navigator gors first definitely")
+} else {
+  console.log("What?! You both have the same name?")
+}
 
 
 
