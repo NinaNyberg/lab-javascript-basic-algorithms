@@ -67,5 +67,20 @@ console.log(etSearch)
 console.log(wordCount)
 
 
+// Bonus 2
 
+let phraseToCheck = "A man, a plan, a canal, Panama!"
+let joinedPhrase = phraseToCheck.toLowerCase().match(/[a-z]/gi).join("")
+
+console.log(joinedPhrase)
+
+let reversePhrase = phraseToCheck.toLowerCase().match(/[a-z]/gi).reverse().join("")
+
+console.log(reversePhrase)
+
+if (joinedPhrase === reversePhrase) {
+  console.log("This is a palindrome!")
+} else {
+  console.log("This is not a palindrome...")
+}
 
